@@ -1,35 +1,109 @@
 
 
+body{
+  background-color: #E7E5DF;
+  font-family: 'Raleway', sans-serif;
+}
+
 header {
-  background-color: skyblue;
-  
+  background-color: #2E294E;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
 
-a {
-    font-display:
-    padding-left: 8px;
-    padding-right: 8px;
-    text-transform: uppercase;
-}
-
-
-body {
+nav {
   background-color: white;
+  margin-top: 1px;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+/* Adjusted margins for body */
+section {
+  background-color: #00A7E1;
+  margin-top: 1px;
+  padding: 1px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  color: white;
 }
 
 #about {
-  background-color: aqua;
-
+  /* background-color: white; */
 }
-
 
 #skills {
+  /* background-color: white; */
+}
 
+#experience {
+  /* background-color: white; */
+}
+
+/* This is formatting for all h1, h2, h3, h4 and paragraphs  */
+
+
+h1 {
+  padding-left: 5px;
+  font-size: 37px;
+}
+
+h2 {
+  padding-left: 10px;
+  font-size: 28px;
+}
+
+h3 {
+  padding-left: 15px;
+  font-size: 21px;
+}
+
+h4 {
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+p {
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+#experience h4 {
+  padding-left: 20px;
+}
+
+#experience h3 {
+  padding-left: 15px;
+  font-style: italic;
+}
+
+#experience p {
+  padding-left: 25px
+}
+
+/* This is formatting for footer */
+#footer {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  margin-top: 1px;
 
 }
 
+#footer h3{
+  padding-left: 5px;
+}
 
-#experience {
+#footer h4 {
+  padding-left: 6px;
+}
 
-  background-color: aqua;
+a {
+  padding-left: 7px;
 }
