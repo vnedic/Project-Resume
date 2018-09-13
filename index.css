@@ -3,107 +3,265 @@
 body{
   background-color: #E7E5DF;
   font-family: 'Raleway', sans-serif;
+
 }
 
 header {
   background-color: #2E294E;
   color: white;
-  border-style: solid;
-  border-color: black;
+  padding-bottom: 160px;
+  padding-top: 40px;
   border-width: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
+.title img {
+  border-radius: 50%;
+  margin-right: 25%;
+  margin-left: 7%;
+}
+
+
+
+
+header h1 {
+  /* border-style: solid;
+  border-color: white;
+  border-width: 1px; */
+  padding: 5px;
+  font-size: 37px;
+  margin: 1px;
+}
+
+header h3 {
+  /* border-style: solid;
+  border-color: white;
+  border-width: 1px; */
+  margin-right: 50%;
+  margin-left: 15px;
+}
+
+header h4 {
+  /* border-style: solid;
+  border-color: white;
+  border-width: 1px; */
+  padding: 5px;
+  margin: 1px;
+  font-weight: lighter;
+}
+
+
 
 nav {
-  background-color: white;
-  margin-top: 1px;
-  padding: 10px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
+  background-color: #2E294E;
+  margin-right: 5%;
+  margin-bottom: 100px;
+  /* border-style: solid;
+  border-color: white;
+  border-width: 1px; */
 }
 
-/* Adjusted margins for body */
-section {
-  background-color: #00A7E1;
-  margin-top: 1px;
+nav a {
   padding: 1px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
   color: white;
 }
 
-#about {
-  /* background-color: white; */
+a:hover {
+  font-weight: bold;
 }
 
-#skills {
-  /* background-color: white; */
+/* titles */
+
+
+#title2 h4 {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#title2 a {
+  color: white;
+  font-weight: bolder;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 9px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 25px;
+}
+
+
+/* Adjusted margins for body */
+section {
+  background-color: white;
+  color: navy;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #experience {
-  /* background-color: white; */
+  padding-bottom: 150px;
 }
 
-/* This is formatting for all h1, h2, h3, h4 and paragraphs  */
-
-
-h1 {
-  padding-left: 5px;
-  font-size: 37px;
+#photo1 {
+  margin-left: -51px;
+  margin-right: -51px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 50px;
 }
+
+/* Formatting for experience */
+
+#experience h3 {
+  padding-left: 15%;
+  padding-right: 56.89px;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#experience h4 {
+  padding-left: 15%;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#experience h5 {
+  padding-left: 40px;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#experience p {
+  padding-left: 40px;
+  font-size: 21px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.photo2 {
+  margin-left: -51px;
+  margin-right: -51px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 50px;
+  }
+
+
 
 h2 {
-  padding-left: 10px;
+  padding-left: 15%;
   font-size: 28px;
 }
 
 h3 {
-  padding-left: 15px;
+  padding-left: 15%;
   font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: darkcyan;
 }
 
 h4 {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h5 {
   padding-left: 15px;
   font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 p {
-  padding-left: 15px;
-  font-size: 12px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 14px;
+  line-height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-#experience h4 {
+/* #experience h4 {
   padding-left: 20px;
 }
 
-#experience h3 {
-  padding-left: 15px;
-  font-style: italic;
-}
+
 
 #experience p {
   padding-left: 25px
-}
+} */
 
 /* This is formatting for footer */
 #footer {
-  background-color: white;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  margin-top: 1px;
+  background-image: url(https://images.pexels.com/photos/273025/pexels-photo-273025.jpeg?cs=srgb&dl=agenda-book-business-273025.jpg&fm=jpg);
+  background-size: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 15%;
+  padding-top: 25px;
+  padding-bottom: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
 
 }
 
 #footer h3{
-  padding-left: 5px;
+  padding-left: 15%;
+  font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
 }
 
 #footer h4 {
-  padding-left: 6px;
+  padding-left: 15%;
+  color: white;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 a {
-  padding-left: 7px;
+  color: navy;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: normal;
+  color: white;
+}
+
+.download2 a{
+color: white;
+font-size: 28px;
+font-weight: bolder;
+border-style: solid;
+border-color: white;
+border-width: 3px;
+border-radius: 9px;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 3px;
+padding-bottom: 3px;
+margin-left: 25px;
 }

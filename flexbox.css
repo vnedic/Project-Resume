@@ -1,6 +1,67 @@
-.header {
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-self: stretch;
+}
+
+nav {
   display: flex;
   justify-content: flex-end;
-  margin-right: 40px;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.skillsimg {
+  display: flex;
+  justify-content: center;
+}
+
+.companyA {
+  display: flex;
+  align-items: flex-start;
+}
+
+.companyA h4{
+  order: -1;
+}
+
+.jobA {
+  display: flex;
+  align-items: flex-start;
+}
+
+.companyB {
+  display: flex;
+  align-items: flex-start;
+}
+
+.companyB h4{
+  order: -1;
+}
+
+.jobB {
+  display: flex;
+  align-items: flex-start;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-transform: uppercase;
+}
+
+.download2 {
+  display: flex;
+  justify-content: flex-end;
 }
